@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef } from "react"
 import { HomeScreen } from "@/components/home-screen"
-import { ConnectScreen } from "@/components/connect-screen" // Ensure this component exists or correct the path
+import { ConnectScreen } from "@/components/connect-screen"
 import { SettingsScreen } from "@/components/settings-screen"
 import { BottomNavigation } from "@/components/bottom-navigation"
 import { FloatingOverlay } from "@/components/floating-overlay"
@@ -169,3 +169,4 @@ export function MainApp({ userData, onLogout, permissionGranted = false }: MainA
     </div>
   )
 }
+
